@@ -48,7 +48,8 @@
 
 ## 폴더 구조 예시
 
-frontend/\n
+```bash
+frontend/
 ├─ pages/
 │ ├─ index.tsx
 │ ├─ login.tsx
@@ -66,9 +67,7 @@ frontend/\n
 ├─ public/
 │ └─ assets/
 └─ styles/
-
-```yaml
-
+```
 ---
 
 ## 주요 문제점 및 극복 경험
@@ -93,20 +92,23 @@ frontend/\n
 
 ---
 
-## 실행 방법 (로컬 개발)
+## 실행 방법 (로컬 개발 및 배포 확인)
 
 1. 레포 클론
 ```bash
 git clone https://github.com/MinDongIl/next-shop-frontend-portfolio.git
 cd next-shop-frontend-portfolio/frontend
+```
 
 2. 의존성 설치
 ```bash
 npm install
+```
 
 3. 개발 서버 실행
 ```bash
 npm run dev
+```
 
 4. 브라우저에서 http://localhost:3000 접속
 
