@@ -48,7 +48,7 @@
 
 ## 폴더 구조 예시
 
-frontend/
+frontend/\n
 ├─ pages/
 │ ├─ index.tsx
 │ ├─ login.tsx
@@ -98,15 +98,15 @@ frontend/
 1. 레포 클론
 ```bash
 git clone https://github.com/MinDongIl/next-shop-frontend-portfolio.git
-cd next-shop-frontend-portfolio/frontend```
+cd next-shop-frontend-portfolio/frontend
 
 2. 의존성 설치
 ```bash
-npm install```
+npm install
 
 3. 개발 서버 실행
 ```bash
-npm run dev```
+npm run dev
 
 4. 브라우저에서 http://localhost:3000 접속
 
@@ -114,4 +114,4 @@ npm run dev```
 
 6. api (backend)도 업로드 후 받은 도메인으로 엔드포인트 연결 후 확인.
 
----```
+---
